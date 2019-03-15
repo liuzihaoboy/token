@@ -1,5 +1,7 @@
 #使用
+
 ##注册servlet
+
 为了能够编辑token授权用户信息，我们必须开启项目的web Servlet支持
 也就是将此类com.lang.token.support.http.servlet.TokenViewServlet
 注册到servlet。
