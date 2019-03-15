@@ -25,6 +25,7 @@
 
 ## 创建token授权用户信息表
 在你的数据库里创建以下表
+```
 DROP TABLE IF EXISTS `token_user`;
 CREATE TABLE `token_user`  (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -33,3 +34,4 @@ CREATE TABLE `token_user`  (
   `signature` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   PRIMARY KEY (`id`) USING BTREE
 ) ENGINE = InnoDB AUTO_INCREMENT = 2 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Compact;
+```
